@@ -54,7 +54,7 @@ export function Navbar() {
                         }}
                         aria-label="Scroll to top"
                     >
-                        &lt;SM/&gt;
+                        &lt;KS/&gt;
                     </button>
                     <NavItems items={navItems} />
                     <div className="flex items-center">
