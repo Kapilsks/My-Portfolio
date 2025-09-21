@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useSpring, useTransform } from "motion/react"
 import React, { useRef, useState } from "react"
-import {ExcelIcon, PythonIcon,CIcon, CPPIcon, CSSIcon, ExpressIcon, GithubIcon, GitIcon, HTMLIcon, JavaIcon, JavaSciptIcon, MongoDBIcon, NodeJsIcon, PostmanIcon, PrismaIcon, ReactIcon, TailwindIcon, TypeScriptIcon, MySQLIcon , VsCodeIcon } from "./ui/icons"
+import {ExcelIcon, PythonIcon,CIcon, CPPIcon, CSSIcon, ExpressIcon, GithubIcon, GitIcon, HTMLIcon, JavaIcon, JavaSciptIcon, MongoDBIcon, NodeJsIcon, PostmanIcon, ReactIcon, TailwindIcon, TypeScriptIcon, MySQLIcon , VsCodeIcon } from "./ui/icons"
 
 
 

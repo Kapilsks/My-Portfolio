@@ -10,7 +10,6 @@ import {
   IconMail, 
 } from '@tabler/icons-react';
 
-import { SiLeetcode } from 'react-icons/si'; // LeetCode icon
 import Link from 'next/link';
 
 const words = [
