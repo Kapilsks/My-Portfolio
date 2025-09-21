@@ -17,7 +17,7 @@ export async function sendEmail(
     try {
         const res = await resend.emails.send({
             from: 'onboarding@resend.dev',  //  Use sandbox sender
-            to: "subhu04012003@gmail.com", 
+            to: "kaushik111103@gmail.com", 
             subject: 'New Notification from Portfolio',
             html: `
                 <div style="font-family: Arial, sans-serif; color: #222;">

@@ -13,7 +13,7 @@ interface EducationItem {
 
 const educationItems: EducationItem[] = [
     {
-        degree: "Bachelor of Technology in Computer Engineering",
+        degree: "Bachelor of Technology in Information Technology",
         startYear: 2022,
         endYear: 2026,
         institution: "J.C. Bose University of Science and Technology, YMCA , Faridabad - India",
@@ -21,10 +21,10 @@ const educationItems: EducationItem[] = [
     },
     {
         degree: " Senior Secondary School",
-        startYear: 2007,
-        endYear: 2021,
-        institution: "Little Angels School , Sonipat , Haryana - India",
-        institutionUrl: 'https://www.google.com/maps/place/Little+angels+school/@28.975716,77.037764,17z/data=!4m12!1m5!3m4!2zMjjCsDU4JzMyLjYiTiA3N8KwMDInMTYuMCJF!8m2!3d28.975716!4d77.037764!3m5!1s0x390db020e2d04d2b:0xfa81a9f575f3534c!8m2!3d28.9752888!4d77.03725!16s%2Fg%2F1tdh6v9d?entry=ttu&g_ep=EgoyMDI1MDYyNi4wIKXMDSoASAFQAw%3D%3D'
+        startYear: 2006,
+        endYear: 2022,
+        institution: "S.D. Memorial Sr. Sec. School, Mohna, Faridabad, Haryana-India",
+        institutionUrl: 'https://www.google.com/maps?ll=28.226503,77.440725&z=18&t=m&hl=en-GB&gl=US&mapclient=embed&cid=15115784239704076860'
     },
     
 ]

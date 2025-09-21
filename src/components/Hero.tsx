@@ -16,7 +16,8 @@ import Link from 'next/link';
 const words = [
   "Full Stack Developer",
   "Problem Solver",
-  "ML Enthusiast"
+  "ML Enthusiast",
+  "Forex Trader"
 ];
 
 const Hero = () => {
@@ -29,7 +30,7 @@ const Hero = () => {
           <span className="flex items-center justify-center md:justify-start gap-2">
             👋🏻Hi, I&apos;m
             <span className="dark:text-orange-500 text-orange-400 font-extrabold">
-              Shubham
+              Kapil Sharma
             </span>
           </span>
           <span className="flex gap-2 items-center justify-center md:justify-start">
@@ -44,7 +45,7 @@ const Hero = () => {
           <div className="flex flex-wrap gap-4 mb-20 md:mb-0 p-2 mt-10 justify-center md:justify-normal">
 
             <Link
-              href="https://github.com/subhm2004"
+              href="https://github.com/kapilsks"
               target="_blank"
               className="group shadow-input flex h-10 items-center justify-center rounded-full px-6 py-3 font-medium text-neutral-700 dark:text-neutral-200 dark:hover:bg-white dark:hover:text-black hover:bg-neutral-900 hover:text-white transition-all duration-200"
             >
@@ -52,31 +53,25 @@ const Hero = () => {
             </Link>
 
             <Link
-              href="https://www.linkedin.com/in/shubham04012003/"
+              href="https://www.linkedin.com/in/kapil-sharma-a15273257/"
               target="_blank"
               className="group shadow-input flex h-10 items-center justify-center rounded-full px-6 py-3 font-medium text-blue-600 dark:text-blue-400 dark:hover:bg-blue-500 dark:hover:text-white hover:bg-blue-500 hover:text-white transition-all duration-200"
             >
               <IconBrandLinkedin className="h-8 w-8 transition-transform group-hover:-translate-y-1" />
             </Link>
 
-            <Link
-              href="https://leetcode.com/subhm2003"
-              target="_blank"
-              className="group shadow-input flex h-10 items-center justify-center rounded-full px-6 py-3 font-medium text-yellow-500 dark:hover:bg-yellow-500 dark:hover:text-white hover:bg-yellow-500 hover:text-white transition-all duration-200"
-            >
-              <SiLeetcode className="h-7 w-7 transition-transform group-hover:-translate-y-1" />
-            </Link>
+          
 
             
             <Link
-              href="mailto:subhu04012003@gmail.com"
+              href="mailto:kaushik111103@gmail.com"
               className="group shadow-input flex h-10 items-center justify-center rounded-full px-6 py-3 font-medium text-red-600 dark:text-red-400 dark:hover:text-white hover:bg-red-600 hover:text-white transition-all duration-200"
             >
               <IconMail className="h-8 w-8 transition-transform group-hover:-translate-y-1" />
             </Link>
 
             <Link
-              href="https://wa.me/918168447388"
+              href="https://wa.me/919306304708"
               target="_blank"
               className="group shadow-input flex h-10 items-center justify-center rounded-full px-6 py-3 font-medium text-green-600 dark:text-green-400 dark:hover:text-white hover:bg-green-600 hover:text-white transition-all duration-200"
             >
@@ -90,7 +85,7 @@ const Hero = () => {
         <div className="flex justify-center md:justify-end">
           <BackgroundGradient className="rounded-full ">
             <Image
-              src="/imagee.jpeg"
+              src="/portfoliopic.jpg"
               alt="Hero Image"
               width={400}
               height={400}

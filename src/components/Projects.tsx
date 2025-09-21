@@ -8,59 +8,51 @@ import Image from "next/image"
 const projects = [
     {
         id: 1,
-        title: "WiseWallet - Personal Finance Dashboard",
-        description: "WiseWallet - AI-Powered Finance Platform 🚀💰 WiseWallet is a modern finance management platform built with Next.js, Supabase, Prisma, Inngest, ArcJet, and ShadCN UI. It leverages AI for receipt scanning, personalized financial insights, and automated transaction tracking.",
-        image: "https://ik.imagekit.io/abc5342/Screenshot%202025-06-30%20at%2011.43.59%E2%80%AFPM.png?updatedAt=1751307263503&tr=w-1200%2Ch-628%2Cfo-auto",
-        techStack: ["Next.js", "Supabase", "Prisma", "ArcJet", "Inngest", "ShadCN","Gemini API", "Resend " ,"Tailwind CSS" ,],
-        liveUrl: "https://wise-wallet-snowy.vercel.app/",
-        githubUrl: "https://github.com/subhm2004/WiseWallet",
+        title: "Wanderlust - Airbnb Clone",
+        description: "Wanderlust is a full-stack Airbnb clone built with Next.js, React, Tailwind CSS, and MongoDB. Users can browse, book, and list properties with real-time availability and search filters.",
+        image: "/wanderlust.png", // Replace with your image URL
+        techStack: ["Node.js", "Express.js", "Tailwind CSS", "MongoDB", "REST APIs"],
+        liveUrl: "https://wanderlust-1-q8bd.onrender.com/listings", // Replace with live URL
+        githubUrl: "https://github.com/kapilsks", // Replace with GitHub URL
     },
-     {
+    {
         id: 2,
-        title: "VibeDub - AI Video Dubbing",
-        description: "VibeDub is an intelligent video dubbing tool powered by Deepgram and Google Translate. It transcribes video audio with high accuracy, translates it to your target language, and generates natural-sounding speech, making multilingual content creation seamless and scalable for global audiences.",
-        image: "https://ik.imagekit.io/abc5342/Screenshot%202025-07-01%20at%2012.07.07%E2%80%AFAM.png?updatedAt=1751308689028",
-        techStack: ["moviepy", "deepgram-sdk", "googletrans", "gTTS","GitHub"],
-        liveUrl: "https://github.com/subhm2004/VibeDub",
-        githubUrl: "https://github.com/subhm2004/VibeDub",
+        title: "Smart Traffic Surveillance System",
+        description: "A smart traffic monitoring system using computer vision and Python. Detects traffic congestion, vehicle count, and violations in real time for better traffic management.",
+        image: "/smarttraffic.png", // Replace with your image URL
+        techStack: ["Python", "OpenCV", "Machine Learning", "NumPy","MOG2","Pandas"],
+        liveUrl: "https://your-traffic-live-url.com", // Replace with live URL
+        githubUrl: "https://github.com/kapilsks", // Replace with GitHub URL
     },
     {
         id: 3,
-        title: "YouTube Summarizer",
-        description: "A web app that analyzes YouTube playlists to calculate total watch time at various speeds and generate AI-based summaries using the Gemini API. Supports custom inputs, theme switching, and exports in PDF, TXT, and DOCX formats. Built with React, TypeScript, and Tailwind CSS.",
-        image: "https://ik.imagekit.io/abc5342/Screenshot%202025-06-30%20at%2011.52.31%E2%80%AFPM.png?updatedAt=1751307766990",
-        techStack: ["Next.js", "React", "Gemini", "TypeScript", "Tailwind CSS", "ShadCN UI","GitHub"],
-        liveUrl: "https://you-tube-summarizer-one.vercel.app/",
-        githubUrl: "https://github.com/subhm2004/YouTube_Summarizer",
+        title: "Weather App",
+        description: "A weather forecasting app built with React and REST APIs. Users can search for any city and get current weather details, temperature, humidity, and forecast.",
+        image: "/weatherapp.png", // Replace with your image URL
+        techStack: ["React", "Hooks", "Tailwind CSS", "OpenWeatherMap API","Redux"],
+        liveUrl: "https://your-weather-live-url.com", // Replace with live URL
+        githubUrl: "https://github.com/kapilsks", // Replace with GitHub URL
     },
-     {
+    {
         id: 4,
-        title: "MarkSmith - Markdown Editor",
-        description: "MarkSmith is a modern, feature-packed Markdown editor built with React. It offers a smooth, real-time editing and previewing experience, ideal for developers, writers, and content creators. With its clean interface and responsive design, MarkSmith makes writing Markdown easy, efficient, and enjoyable across various devices and use cases.",
-        image: "/1.png",
-        techStack: ["React", "JavaScript", "Material UI", "DOMPurify","GitHub"],
-        liveUrl: "https://mark-smith-7o2v.vercel.app/",
-        githubUrl: "https://github.com/subhm2004/MarkSmith",
+        title: "Simon Says Game",
+        description: "A classic Simon Says memory game built with JavaScript. Users have to repeat an increasingly complex sequence of colors and sounds to win.",
+        image: "/simon.png", // Replace with your image URL
+        techStack: ["JavaScript", "HTML", "CSS"],
+        liveUrl: "https://your-simon-says-live-url.com", // Replace with live URL
+        githubUrl: "https://github.com/kapilsks", // Replace with GitHub URL
     },
-     {
+    {
         id: 5,
-        title: "Codeforces Problem Recommender",
-        description: "The Codeforces Problem Recommender is a smart tool that suggests personalized programming problems based on difficulty and tags. It uses the Codeforces API to provide efficient practice recommendations, helping users focus on specific topics and skill levels. Ideal for targeted learning and improving competitive programming performance.",
-        image: "/2.png",
-        techStack: ["HTML", "CSS", "JavaScript","CF API","GitHub"],
-        liveUrl: "https://code-forces-problem-recommender.vercel.app/",
-        githubUrl: "https://github.com/subhm2004/Code_forces_problem_recommender",
-    },
-     {
-        id: 6,
-        title: "Virtual Mouse",
-        description: "Virtual Mouse is a Python project that uses MediaPipe and OpenCV to recognize hand gestures in real time. It lets you control your computer’s mouse and keyboard using just your hands. Fully customizable, it’s ideal for touchless control, accessibility solutions, and gesture-based user interfaces.",
-        image: "/4.png",
-        techStack: ["OpenCV", "MediaPipe", "PyAutoGUI", "NumPy","GitHub"],
-        liveUrl: "https://github.com/subhm2004/Virtual_Mouse",
-        githubUrl: "https://github.com/subhm2004/Virtual_Mouse",
+        title: "Todo List App",
+        description: "A simple and interactive Todo List app built with React. Users can add, update, delete, and mark tasks as completed, with data stored in local storage.",
+        image: "/todo.png", // Replace with your image URL
+        techStack: ["React", "JavaScript", "Tailwind CSS"],
+        liveUrl: "https://your-todo-list-live-url.com", // Replace with live URL
+        githubUrl: "https://github.com/kapilsks", // Replace with GitHub URL
     }
-]
+];
+
 
 export function Projects() {
     return (

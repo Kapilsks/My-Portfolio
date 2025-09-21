@@ -40,11 +40,11 @@ const About = () => {
                 </div>
  
                 <span className="font-sans w-full text-neutral-900 dark:text-neutral-100 font-semibold text-lg sm:text-base md:text-lg lg:text-xl leading-relaxed text-justify">
-                    <TextGenerateEffect text="I'm a Full-Stack Developer passionate about backend development, API design, and building scalable systems. I love solving real-world problems through clean, maintainable code and robust logic."/>
+                    <TextGenerateEffect text="I'm a Full-Stack Developer with expertise in Node.js, React, MongoDB, and Express. I enjoy building scalable, high-performance web applications, solving complex problems, and turning ideas into functional, real-world projects. I am also passionate about Machine Learning, Computer Vision, and exploring AI-powered solutions." />
                     <br/>
-                    <TextGenerateEffect text="My strength lies in backend systems, working with tools like Node.js, Express, MongoDB, and Next.js, while also using modern UI libraries for smooth frontend experiences. I’m always looking to optimize systems, integrate tools, and create reliable, maintainable architectures." />
+                    <TextGenerateEffect text="I specialize in backend systems using Node.js, Express, MongoDB, and React, while crafting smooth frontend experiences with modern UI libraries. I focus on building reliable, scalable, and maintainable architectures, optimizing systems, and integrating tools for real-world applications." />
                     <br/>
-                    <TextGenerateEffect text="I enjoy contributing to meaningful projects—especially those that challenge me to grow, collaborate, and make an impact."/>
+                    <TextGenerateEffect text="I have a strong grasp of core CS fundamentals including OOPs, DBMS, Operating Systems, System Design, and Computer Networks. I enjoy working on projects that let me apply this knowledge, grow my skills, collaborate effectively, and make a real impact." />
                 </span> 
             </div>
         </motion.section>
